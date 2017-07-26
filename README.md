@@ -25,7 +25,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: jkirchartz.ghostscript-imagemagick }
+         - { role: JKirchartz.ghostscript-imagemagick }
 
 Tasks
 -----
