@@ -1,0 +1,7 @@
+---
+- name: install ghostscript & imagemagick
+  apt: pkg={{ item }} state=latest
+  with_items:
+    - ghostscript
+    - libgs-dev
+    - imagemagick
